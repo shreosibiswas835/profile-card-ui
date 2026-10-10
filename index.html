@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08091b">
+  <title>Shreosi BIswas | Developer Card</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <main class="profile-card">
+
+    <section class="portrait">
+      <img src="profile.jpg" alt="Shreosi BIswas">
+
+      <div class="availability">
+        <span class="status-dot"></span>
+        Available for Work
+      </div>
+
+      <div class="developer-tag">
+        <i data-lucide="code-2"></i>
+        JAVA DEVELOPER
+      </div>
+    </section>
+
+    <section class="profile-content">
+
+      <div class="heading-row">
+        <div class="identity">
+          <h1>
+            Shreosi <span>BIswas</span>
+            <span class="verified" title="Profile badge">✓</span>
+          </h1>
+
+          <p class="role">
+            Java Developer <span>|</span> App Developer
+          </p>
+        </div>
+
+        <button class="like-button" id="likeBtn"
+                aria-label="Like profile" aria-pressed="false">
+          <i data-lucide="heart"></i>
+        </button>
+      </div>
+
+      <p class="bio">
+        Passionate about building efficient software solutions
+        and creating innovative mobile applications.
+      </p>
+
+      <div class="stats">
+
+        <div class="stat stat-purple">
+          <div class="stat-icon">
+            <i data-lucide="users"></i>
+          </div>
+          <div>
+            <strong id="followers">312</strong>
+            <span>Followers</span>
+          </div>
+        </div>
+
+        <div class="stat stat-blue">
+          <div class="stat-icon">
+            <i data-lucide="code-2"></i>
+          </div>
+          <div>
+            <strong>18</strong>
+            <span>Projects</span>
+          </div>
+        </div>
+
+        <div class="stat stat-green">
+          <div class="stat-icon">
+            <i data-lucide="trophy"></i>
+          </div>
+          <div>
+            <strong>5</strong>
+            <span>Certifications</span>
+          </div>
+        </div>
+
+      </div>
+
+      <footer class="card-footer">
+
+        <nav class="social-links" aria-label="Social links">
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer" aria-label="GitHub">
+            <i data-lucide="github"></i>
+          </a>
+
+          <a href="https://linkedin.com/" target="_blank"
+             rel="noopener noreferrer" aria-label="LinkedIn">
+            <i data-lucide="linkedin"></i>
+          </a>
+
+          <a href="mailto:your-email@example.com" aria-label="Email">
+            <i data-lucide="mail"></i>
+          </a>
+        </nav>
+
+        <button class="follow-button" id="followBtn"
+                aria-pressed="false">
+          <i data-lucide="user-round-plus"></i>
+          <span id="followText">Follow</span>
+          <span class="plus">+</span>
+        </button>
+
+      </footer>
+
+      <div class="card-bottom">
+        <span></span>
+        <p>BUILT WITH PASSION <b>✦</b></p>
+        <span></span>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
